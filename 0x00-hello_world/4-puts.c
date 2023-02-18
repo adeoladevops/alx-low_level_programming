@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main - print a sentence without using printf
+ *main -print this "Programming is like building a multilingual puzzle" using puts 
  *
  *Return: 0
  */
