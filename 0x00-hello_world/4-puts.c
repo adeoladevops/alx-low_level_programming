@@ -1,6 +1,6 @@
 #include <stdio.h>
-/*
- *main -print this "Programming is like building a multilingual puzzle" using puts 
+/**
+ *main- print using puts in our code
  *
  *Return: 0
  */
