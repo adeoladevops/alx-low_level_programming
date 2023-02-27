@@ -7,5 +7,6 @@
 
 void reset_to_98(int *n) /* this is the function to modify the value of n*/
 {
+	int n;
 	*n = 98;
 }
