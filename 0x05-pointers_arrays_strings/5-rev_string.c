@@ -15,7 +15,7 @@ void rev_string(char *s)
 	{
 		i++;
 	}
-	y = i - 1
+	y = i - 1;
 
 	for (x = 0, y >= 0 && x < y; y--, x++)
 	{
