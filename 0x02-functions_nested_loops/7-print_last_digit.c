@@ -5,7 +5,8 @@
  * @n: The number to test
  *
  * Return: the last digit of any number.
- *      */
+ */
+
 int print_last_digit(int n)
 {
 	int a = n % 10;
