@@ -1,11 +1,16 @@
-#include "main.h"
+nclude "main.h"
 /**
- *reset_to_98 - using pointer to update the var of n
- * @n: value of what is stored in the address &n
- *Return: Always 0 (Success)
+ * _strcpy - copy the string pointed to by src to dest
+ * @dest: char to check
+ * @src: char to check
+ * Return: 0 is success
  */
-void reset_to_98(int *n)
+char *_strcpy(char *dest, char *src)
 {
-	int n;
-	*n = 98;
-}
+	int a;
+
+	for (a = 0; src[a] != '\0'; a++)
+		dest[a] = src[a];
+	dest[a] = '\0';
+	return (dest);
+
